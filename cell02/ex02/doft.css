@@ -181,3 +181,45 @@ body {
 	width: 200px;
 	height: 200px;
 }
+
+.popup {
+	position: absolute;
+	top: 800px;
+	left: 250px;
+	width: 600px;
+	height: 200px;
+	border-radius: 20px;
+	background-color: rgb(100, 175, 100);
+	padding: 20px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.gran {
+	font-size: 50px;
+}
+
+
+
+.formulario {
+	position: absolute;
+	top: 150px;
+	left: 25px;
+	width: 400px;
+	height: 20px;
+	
+	background-color:white;
+
+}
+
+.form-bott {
+	position: absolute;
+	top: 150px;
+	left: 435px;
+	width: 80px;
+	height: 20px;
+	
+	background-color:gray;
+	text-align: center;
+
+}
