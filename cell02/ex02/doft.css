@@ -1,0 +1,183 @@
+:root {
+	--light_grey: rgb(143, 143, 145);
+	--dark_grey: #474C50;
+  }
+body {
+	background-color: var(--dark_grey);
+}
+
+.header {
+	position: absolute;
+	left: 100px;
+	top: 20px;
+
+	background-color: var(--light_grey);
+	height: 100px;
+	width: 1800px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px black ;
+}
+
+.header_doft {
+	position: absolute;
+	height: 80%;
+	bottom: 10px;
+	top: 10px;
+	width: auto;
+	padding-left: 10px;
+}
+
+.reload_button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.close_button {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.glass {
+	position: absolute;
+	right: 50px;
+	bottom: -15px;
+	width: auto;
+	height: 110px;
+}
+
+.row1 {
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	width: 1750px;
+	height: 600px;
+
+}
+
+.left_col {
+	background-color: var(--light_grey);
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 200px;
+	height: 600px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px black ;
+}
+.center_col {
+	background-color: var(--light_grey);
+	position: absolute;
+	left: 220px;
+	top: 10px;
+	width: 1300px;
+	height: 720px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px black ;
+}
+.right_col {
+	background-color: var(--light_grey);
+	position: absolute;
+	left: 1530px;
+	top: 10px;
+	width: 200px;
+	height: 100%;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px black ;
+}
+
+.arrow {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	width: 100px;
+	height: 100px;
+}
+
+.hand {
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	width: 100px;
+	height: 100px;
+}
+
+.eye {
+	position: absolute;
+	left: 47px;
+	top: 250px;
+	width: 95px;
+	height: 95px;
+	border: red solid 5px;
+}
+
+.tools {
+	position: absolute;
+	left: 50px;
+	top: 350px;
+	width: 100px;
+	height: 100px;
+}
+
+.chat {
+	position: absolute;
+	left: 50px;
+	top: 450px;
+	width: 100px;
+	height: 100px;
+}
+
+.book {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	width: 100px;
+	height: 120px;
+}
+
+.towel {
+	position: absolute;
+	left: 50px;
+	top: 170px;
+	width: 100px;
+	height: 100px;
+}
+
+.brick {
+	position: absolute;
+	left: 20px;
+	top: 270px;
+	width: 160px;
+	height: 100px;
+}
+
+.cluster {
+	display: block;
+	width: 97%;
+	height: 95%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.silla {
+	position: absolute;
+	top: 55%;
+	left: 30%;
+	width: 250px;
+	height: 250px;
+}
+
+.monitor {
+	position: absolute;
+	top: 45%;
+	left: 60%;
+	width: 200px;
+	height: 200px;
+}

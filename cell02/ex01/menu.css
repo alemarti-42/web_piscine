@@ -1,0 +1,25 @@
+.menu {
+	position: relative;
+	display: inline-block;
+
+}
+
+.dropbtn {
+	color: white;
+	background-color: #2A6114;
+	width: 300px;
+}
+
+.content {
+	display: none;
+	position: absolute;
+	width: 100%;
+	text-decoration: none;
+	background-color: #6BFC31;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.menu:hover .content { display:block}
+
+.menu:hover .dropbtn { background-color: #2A0000;display:block}
