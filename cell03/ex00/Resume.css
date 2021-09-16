@@ -36,7 +36,7 @@ hr {
 .main_grid {
 	background-color: var(--color-1);
 	max-width: 210mm;
-	min-width: 150mm;
+	min-width: 100mm;
 	border: 2px var(--light-grey) solid;
 	margin-left: auto;
 	margin-right: auto;
@@ -52,6 +52,8 @@ hr {
 	background-color: #245876;
 	border: white 4px solid;
 	border-radius: 3mm;
+	box-shadow: 2px 2px 5px black;
+
 }
 
 .name_cell {
@@ -62,6 +64,7 @@ hr {
 	background-color: var(--name-background);
 	color: white;
 	border-radius: 3mm;
+	box-shadow: 2px 2px 5px black;
 }
 
 .photo {
@@ -92,6 +95,7 @@ hr {
 	background-color: var(--contact-color);
 	border-radius: 3mm;
 	text-align: center;
+	box-shadow: 2px 2px 5px black;
 }
 
 .intro_cell {
@@ -145,6 +149,7 @@ hr {
 	background-color: var(--skills-background);
 	border: white 4px solid;
 	border-radius: 3mm;
+	box-shadow: 2px 2px 5px black;
 }
 
 .exp_cell {
