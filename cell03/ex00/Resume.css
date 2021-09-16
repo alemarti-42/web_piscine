@@ -17,9 +17,11 @@ body {
 p {
 	padding-left: 5mm;
 	padding-right: 5mm;
+	text-align: justify;
 }
 
 h2{
+	padding-left: 5mm;
 	font-family: "Lucida Console", monospace;	
 }
 
@@ -39,6 +41,7 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 5px 5px 5px black;
+	border-radius: 3mm;
 }
 
 .photo_cell {
@@ -86,15 +89,14 @@ hr {
 	border: 2px var(--light-grey) solid;
 	vertical-align: text-top;
 	padding-right: 1mm;
-	text-align: center;
 	background-color: var(--contact-color);
 	border-radius: 3mm;
+	text-align: center;
 }
 
 .intro_cell {
 	vertical-align: text-top;
 	border: 2px var(--light-grey) solid;
-	text-align: justify;
 }
 
 .skills_list {
