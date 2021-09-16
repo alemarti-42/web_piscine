@@ -1,0 +1,158 @@
+:root {
+	--light-grey: #bdbdbd00;
+	--background-color: #BD6A3A;
+	--name-background: #163547; 
+	--skills-background: #6BAACE;
+	--contact-color: #539BC5;
+	--color-1: #3a8dbd;
+	
+}
+
+body {
+	background-color: var(--background-color);
+	font-family: "Lucida Console", monospace;
+	
+}
+
+p {
+	padding-left: 5mm;
+	padding-right: 5mm;
+}
+
+h2{
+	font-family: "Lucida Console", monospace;	
+}
+
+li {
+	padding-top: 2mm;
+}
+
+hr {
+	border: 1px rgb(255, 255, 255) dashed;
+}
+
+.main_grid {
+	background-color: var(--color-1);
+	max-width: 210mm;
+	min-width: 150mm;
+	border: 2px var(--light-grey) solid;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 5px black;
+}
+
+.photo_cell {
+	width: 7cm;
+	border: 2px var(--light-grey) solid;
+	padding: 5mm;
+	text-align: center;
+	background-color: #245876;
+	border: white 4px solid;
+	border-radius: 3mm;
+}
+
+.name_cell {
+	width: 100%;
+	border: var(--light-grey) 2px solid;
+	padding: 1cm;
+	align: right;
+	background-color: var(--name-background);
+	color: white;
+	border-radius: 3mm;
+}
+
+.photo {
+	border: 3px #BD6A3A solid;
+	width: 5cm;
+	height: 5cm;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+.name {
+	font-family: "Lucida Console", monospace;
+	font-size: 70px;
+	text-align: right;
+}
+
+.title {
+	font-family: "Lucida Console", monospace;
+	font-size: 30px;
+	text-align: right;
+}
+
+.contact_cell {
+
+	border: 2px var(--light-grey) solid;
+	vertical-align: text-top;
+	padding-right: 1mm;
+	text-align: center;
+	background-color: var(--contact-color);
+	border-radius: 3mm;
+}
+
+.intro_cell {
+	vertical-align: text-top;
+	border: 2px var(--light-grey) solid;
+	text-align: justify;
+}
+
+.skills_list {
+	font-family: "Lucida Console", monospace;
+	padding-right: 5mm;
+}
+
+.skill_1_progress {
+	height: 10px;
+	width: 20%;
+	background-color: #3A4BBD;
+}
+
+.skill_2_progress {
+	height: 10px;
+	width: 90%;
+	background-color: #6A3ABD;
+}
+
+.skill_3_progress {
+	height: 10px;
+	width: 50%;
+	background-color: #AB3ABD;
+}
+
+.skill_4_progress {
+	height: 10px;
+	width: 35%;
+	background-color: #BD3A8D;
+}
+
+.skill_5_progress {
+	height: 10px;
+	width: 100%;
+	background-color: #BD3A4C;
+}
+
+.skill_border {
+	float: right;
+	height: 10px;
+	width: 50%;
+	border: 1px black solid;
+}
+
+.skills_cell {
+	background-color: var(--skills-background);
+	border: white 4px solid;
+	border-radius: 3mm;
+}
+
+.exp_cell {
+	border: 2px var(--light-grey) solid;
+}
+
+.first_row {
+	min-height: 10mm;
+}
+
+.second_row {
+	height: 10cm;
+}
