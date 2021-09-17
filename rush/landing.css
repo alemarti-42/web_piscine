@@ -1,0 +1,53 @@
+:root {
+	--color-1: #9FE6B5;
+	--color-2: #6EEB94;
+	--color-3: #268F46;
+	--text-color: #94537f;
+	--border-color: #94537f;
+}
+
+body {
+	background-color: var(--color-1);
+	background-image: url("Resources/42_logo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 80%;
+	text-align: center;
+	padding-top: 20vh;
+}
+
+.logins-table {
+	
+	border: 2px solid rgba(0, 0, 0, 0);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+
+.login-photo {
+	border-radius: 100%;
+	border: 2px var(--border-color) solid;
+	width: 150px;
+	height: 150px;
+}
+
+.texts {
+	text-align: center;
+	color: var(--text-color);
+}
+
+.main-title {
+	font-size: 50px;
+}
+
+.subtitle {
+	font-size: 40px
+}
+
+.login-id {
+	font-size: 20px;
+	color: var(--text-color);
+}

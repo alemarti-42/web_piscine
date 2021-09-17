@@ -1,0 +1,119 @@
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing:-0.01rem;
+}
+
+body {
+    margin:0;
+	background-color: #3a98bd;
+}
+
+.title {
+    text-align:center;
+    font-size:50;
+    letter-spacing:-0.1rem;
+}
+
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:5px solid rgb(222, 227, 230);
+}
+
+
+.con {
+    width:100%;
+    margin:0 auto;
+}
+
+.outer-table {
+    width:100%;
+	background-color: #3a98bd;
+}
+
+.resume-table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+.resume-table th, .resume-table td {
+	border-collapse:collapse;
+    vertical-align:middle;
+    text-align:center;
+    padding:0;
+}
+
+.profile {
+    width:250px;
+    height:400px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.clear_row {
+	width: 100%;
+	border: white 4px solid;
+	border-radius: 3mm;
+	background-color: rgb(88, 164, 194);
+}
+.clear_row2 {
+	width: 100%;
+	border: white 4px solid;
+	border-radius: 3mm
+}
+
+
+.resume-table-1 td ul {
+    text-align:left;
+}
+
+.resume-table-skills{
+    text-align:left;
+	width: 100%;
+}
+
+.skill_1_progress {
+	height: 10px;
+	width: 50%;
+	background-color: #228838;
+}
+
+.skill_2_progress {
+	height: 10px;
+	width: 30%;
+	background-color: #5c1f43;
+}
+
+.skill_3_progress {
+	height: 10px;
+	width: 80%;
+	background-color: #AB3ABD;
+}
+
+.skill_4_progress {
+	height: 10px;
+	width: 60%;
+	background-color: #888f2a;
+}
+
+.skill_5_progress {
+	height: 10px;
+	width: 100%;
+	background-color: #3a98bd;
+}
+
+.skill_border {
+	float: right;
+	height: 10px;
+	width: 50%;
+	border: 1px black solid;
+}
+
+.skills_cell {
+
+	border: white 4px solid;
+	border-radius: 3mm;
+	box-shadow: 2px 2px 5px black;
+}
+
